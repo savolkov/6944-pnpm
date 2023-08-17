@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       slate:
-        specifier: 0.94.1
-        version: 0.94.1
+        specifier: 0.84.0
+        version: 0.84.0
 
   packages/a:
     dependencies:
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  /immer@9.0.15:
-    resolution: {integrity: sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==}
+  /immer@9.0.21:
+    resolution: {integrity: sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==}
     dev: false
 
   /is-plain-object@5.0.0:
@@ -32,15 +32,7 @@ packages:
   /slate@0.84.0:
     resolution: {integrity: sha512-jAxK10V9nAtAFr6PpCfLdLi+VYNmAOMKC/PIaOWH2HGTrmZEY2XxJt4kbnRNVEbUHkQ1dqaBImVLsVzdoUL8/w==}
     dependencies:
-      immer: 9.0.15
-      is-plain-object: 5.0.0
-      tiny-warning: 1.0.3
-    dev: false
-
-  /slate@0.94.1:
-    resolution: {integrity: sha512-GH/yizXr1ceBoZ9P9uebIaHe3dC/g6Plpf9nlUwnvoyf6V1UOYrRwkabtOCd3ZfIGxomY4P7lfgLr7FPH8/BKA==}
-    dependencies:
-      immer: 9.0.15
+      immer: 9.0.21
       is-plain-object: 5.0.0
       tiny-warning: 1.0.3
     dev: false
@@ -48,7 +40,3 @@ packages:
   /tiny-warning@1.0.3:
     resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
     dev: false
-
-time:
-  /slate@0.84.0: '2022-10-20T04:43:16.362Z'
-  /slate@0.94.1: '2023-05-09T17:29:31.096Z'

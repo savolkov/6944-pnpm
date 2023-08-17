@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "slate": "0.94.1"
+    "slate": "0.84.0"
   }
 }
