@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       slate:
-        specifier: 0.84.0
-        version: 0.84.0
+        specifier: 0.94.1
+        version: 0.94.1
 
   packages/a:
     dependencies:
@@ -31,6 +31,14 @@ packages:
 
   /slate@0.84.0:
     resolution: {integrity: sha512-jAxK10V9nAtAFr6PpCfLdLi+VYNmAOMKC/PIaOWH2HGTrmZEY2XxJt4kbnRNVEbUHkQ1dqaBImVLsVzdoUL8/w==}
+    dependencies:
+      immer: 9.0.21
+      is-plain-object: 5.0.0
+      tiny-warning: 1.0.3
+    dev: false
+
+  /slate@0.94.1:
+    resolution: {integrity: sha512-GH/yizXr1ceBoZ9P9uebIaHe3dC/g6Plpf9nlUwnvoyf6V1UOYrRwkabtOCd3ZfIGxomY4P7lfgLr7FPH8/BKA==}
     dependencies:
       immer: 9.0.21
       is-plain-object: 5.0.0
